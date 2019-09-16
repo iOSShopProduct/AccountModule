@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D88FDA2298E102B96056D08 /* libPods-AccountModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 874529B975212D1EDE08CCA0 /* libPods-AccountModule.a */; };
 		CA43A0E0232F777200164977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A0DF232F777200164977 /* AppDelegate.m */; };
 		CA43A0E3232F777200164977 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A0E2232F777200164977 /* ViewController.m */; };
 		CA43A0E6232F777200164977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA43A0E4232F777200164977 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		CA43A0EE232F777300164977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A0ED232F777300164977 /* main.m */; };
 		CA43A0F8232F777300164977 /* AccountModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A0F7232F777300164977 /* AccountModuleTests.m */; };
 		CA43A103232F777300164977 /* AccountModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A102232F777300164977 /* AccountModuleUITests.m */; };
+		CA43A112232F79FF00164977 /* Target_Account.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A111232F79FF00164977 /* Target_Account.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B15EE577780D0B2A3430759 /* Pods-AccountModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule.release.xcconfig"; path = "Target Support Files/Pods-AccountModule/Pods-AccountModule.release.xcconfig"; sourceTree = "<group>"; };
+		874529B975212D1EDE08CCA0 /* libPods-AccountModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACAF872904C0239DA6E3F6E /* Pods-AccountModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule.debug.xcconfig"; path = "Target Support Files/Pods-AccountModule/Pods-AccountModule.debug.xcconfig"; sourceTree = "<group>"; };
 		CA43A0DB232F777200164977 /* AccountModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA43A0DE232F777200164977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA43A0DF232F777200164977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		CA43A0FE232F777300164977 /* AccountModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA43A102232F777300164977 /* AccountModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountModuleUITests.m; sourceTree = "<group>"; };
 		CA43A104232F777300164977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA43A110232F79FF00164977 /* Target_Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Account.h; sourceTree = "<group>"; };
+		CA43A111232F79FF00164977 /* Target_Account.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Account.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D88FDA2298E102B96056D08 /* libPods-AccountModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6D414895B40EE3B7EC6E4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ACAF872904C0239DA6E3F6E /* Pods-AccountModule.debug.xcconfig */,
+				0B15EE577780D0B2A3430759 /* Pods-AccountModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CA43A0D2232F777200164977 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				CA43A0F6232F777300164977 /* AccountModuleTests */,
 				CA43A101232F777300164977 /* AccountModuleUITests */,
 				CA43A0DC232F777200164977 /* Products */,
+				5F6D414895B40EE3B7EC6E4A /* Pods */,
+				E79384C4A797187E9AD71CBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,8 @@
 				CA43A0DF232F777200164977 /* AppDelegate.m */,
 				CA43A0E1232F777200164977 /* ViewController.h */,
 				CA43A0E2232F777200164977 /* ViewController.m */,
+				CA43A110232F79FF00164977 /* Target_Account.h */,
+				CA43A111232F79FF00164977 /* Target_Account.m */,
 				CA43A0E4232F777200164977 /* Main.storyboard */,
 				CA43A0E7232F777300164977 /* Assets.xcassets */,
 				CA43A0E9232F777300164977 /* LaunchScreen.storyboard */,
@@ -132,6 +153,14 @@
 			path = AccountModuleUITests;
 			sourceTree = "<group>";
 		};
+		E79384C4A797187E9AD71CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874529B975212D1EDE08CCA0 /* libPods-AccountModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA43A107232F777300164977 /* Build configuration list for PBXNativeTarget "AccountModule" */;
 			buildPhases = (
+				1BFDAEDAB3E9F743C135534D /* [CP] Check Pods Manifest.lock */,
 				CA43A0D7232F777200164977 /* Sources */,
 				CA43A0D8232F777200164977 /* Frameworks */,
 				CA43A0D9232F777200164977 /* Resources */,
@@ -257,6 +287,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BFDAEDAB3E9F743C135534D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccountModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA43A0D7232F777200164977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +319,7 @@
 			files = (
 				CA43A0E3232F777200164977 /* ViewController.m in Sources */,
 				CA43A0EE232F777300164977 /* main.m in Sources */,
+				CA43A112232F79FF00164977 /* Target_Account.m in Sources */,
 				CA43A0E0232F777200164977 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +489,7 @@
 		};
 		CA43A108232F777300164977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACAF872904C0239DA6E3F6E /* Pods-AccountModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +506,7 @@
 		};
 		CA43A109232F777300164977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B15EE577780D0B2A3430759 /* Pods-AccountModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
